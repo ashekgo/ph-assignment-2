@@ -1,5 +1,9 @@
+@media screen and (max-width: 600px)  {
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* Navigation Section Start */
 /* Navigation Section End */
@@ -13,45 +17,52 @@
     background-image: url("./images/searchbg.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     border-radius: 16px;
-    width: 1170px;
-    height: 500px;
-    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .search-title{
     color: #FFF;
     font-family: Mulish;
-    font-size: 64px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    width: 80%;
+    text-align: center;
 }
 
 .search-description{
-    width: 676px;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 21px;
+    width: 80%;
 }
 
 .search-bar{
+    width: 80%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .search-input{
     border: none;
     border-radius: 8px;
     background-color: #FFF;
-    width: 174px;
+    width: 80%;
     height: 52px;
+    margin: 16px;
     color: rgba(19, 19, 24, 0.50);
     text-align: center;
     font-family: Mulish;
@@ -65,7 +76,7 @@
     border: none;
     border-radius: 8px;
     background-color: #FFF;
-    width: 255px;
+    width: 80%;
     height: 52px;
     margin: 16px;
     color: rgba(19, 19, 24, 0.50);
@@ -81,7 +92,7 @@
     border-radius: 8px;
     background: #FF5400;
     border: none;
-    width: 174px;
+    width: 80%;
     height: 52px;
     color: #FFF;
     text-align: center;
@@ -96,52 +107,59 @@
 /* Popular Section Start */
 .popular{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    width: 80%;
 }
 
 .popular-text{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+    width: 90%;
 }
 
 .popular-title{
     color: #131318;
     text-align: center;
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    width: 80%;
 }
+
 .popular-description{
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 24px;
+    width: 80%;
+    text-align: justify;
 }
 
 .popular-li{
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 24px;
+    width: 80%;
+    text-align: justify;
 }
 
 .popular-button{
     border: none;
     border-radius: 8px;
     background: #FF5400;
-    width: 174px;
+    width: 80%;
     height: 52px;
     color: #FFF;
-    text-align: center;
     font-family: Mulish;
     font-size: 20px;
     font-style: normal;
@@ -149,11 +167,19 @@
     line-height: normal;
 }
 
-.popular-image{
-    width: 540px;
-    height: 550px;
+/* .popular-image{
+    background-image: url("./images/popular-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
     border-radius: 16px;
-}
+    margin : 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 /* Popular Section End */
 
@@ -161,6 +187,8 @@
 .destination{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .destination-title{
@@ -195,13 +223,17 @@
 
 .destination-first-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .destination-maldives{
     background-image: url("./images/destination-maldives.png");
-    width: 573px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -211,7 +243,10 @@
 }
 .destination-indonesia{
     background-image: url("./images/destination-indonesia.png");
-    width: 573px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -222,13 +257,17 @@
 
 .destination-second-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .destination-srilanka{
     background-image: url("./images/destination-srilanka.png");
-    width: 374px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 286px;
     border-radius: 16px;
     margin : 5px;
@@ -238,7 +277,10 @@
 }
 .destination-north-america{
     background-image: url("./images/destination-north-america.png");
-    width: 474px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 286px;
     border-radius: 16px;
     margin : 5px;
@@ -248,7 +290,10 @@
 }
 .destination-kashmir{
     background-image: url("./images/destination-kashmir.png");
-    width: 274px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 286px;
     border-radius: 16px;
     margin : 5px;
@@ -258,13 +303,17 @@
 }
 .destination-third-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .destination-bangladesh{
     background-image: url("./images/destination-bangladesh.png");
-    width: 473px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -274,7 +323,10 @@
 }
 .destination-bandarban{
     background-image: url("./images/destination-bandarban.png");
-    width: 673px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -285,11 +337,12 @@
 /* Destination Section End */
 
 /* Choose Section Start */
-.choose{}
+.choose{
+    width: 90%;
+}
 
 .choose-title{
     color: #131318;
-    text-align: center;
     font-family: Mulish;
     font-size: 40px;
     font-style: normal;
@@ -299,7 +352,6 @@
 
 .choose-description{
     color: rgba(19, 19, 24, 0.70);
-    text-align: center;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -309,12 +361,13 @@
 .choose-card-group{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     gap: 24px;
 }
 
 .choose-card{
-    width: 573px;
+    width: 100%;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -327,7 +380,7 @@
 }
 
 .choose-card-2{
-    width: 573px;
+    width: 100%;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -342,6 +395,9 @@
 .choose-card-image{
     width: 64px;
     height: 64px;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 .choose-card-title{
@@ -535,3 +591,4 @@
     justify-content: center;
 }
 /* Footer Section End */
+}
