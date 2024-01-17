@@ -12,12 +12,16 @@
 }
 
 .navigation-menu {
-    display: none;
-    width: 100%;
+    display: flex;
+    width: 80%;
 }
 
-.navigation-ul{
-    display: none;
+.navigation-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 
