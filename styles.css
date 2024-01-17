@@ -1,7 +1,55 @@
-
-
-
 /* Navigation Section Start */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #424247;
+    padding: 10px;
+}
+
+.navigation-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.navigation-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.navigation-title-span {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.navigation-menu {
+    display: flex;
+}
+
+.navigation-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation-ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
 /* Navigation Section End */
 
 /* Search Section Start */
@@ -105,6 +153,7 @@
 .popular-text{
     display: flex;
     flex-direction: column;
+    width: 577px;
 }
 
 .popular-title{
@@ -153,6 +202,15 @@
     width: 540px;
     height: 550px;
     border-radius: 16px;
+    background-image: url("./images/popular-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    margin : 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Popular Section End */
@@ -285,7 +343,7 @@
 /* Destination Section End */
 
 /* Choose Section Start */
-.choose{}
+/* .choose{} */
 
 .choose-title{
     color: #131318;
@@ -342,6 +400,9 @@
 .choose-card-image{
     width: 64px;
     height: 64px;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 .choose-card-title{
@@ -351,6 +412,9 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 .choose-card-description{
@@ -370,6 +434,58 @@
 /* Videos Section End */
 
 /* Affliation Section Start */
+.affiliation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.affiliation-title {
+    width: 80%;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.affiliation-description{
+    width: 80%;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.affiliation-table {
+    width: 100%;
+    margin-top: 10px;
+    overflow-x: auto;
+    background-color: #ebe4e1;
+    border-radius: 15px;
+}
+
+.affiliation-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.affiliation-th,
+.affiliation-td {
+    padding: 8px;
+    text-align: center;
+}
+
+.affiliation-th {
+    background-color: #f2f2f2;
+}
 /* Affliation Section End */
 
 /* Newsletter Section Start */
@@ -533,5 +649,19 @@
     gap: 10px;
     align-items: center;
     justify-content: center;
+}
+
+.footer-hr{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.footer-copyright{
+    color: #131318;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 /* Footer Section End */
