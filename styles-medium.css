@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 991px)  {
 
 *{
     margin: 5px;
@@ -201,8 +201,6 @@
 .destination{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .destination-title{
@@ -237,17 +235,13 @@
 
 .destination-first-row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 .destination-maldives{
     background-image: url("./images/destination-maldives.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    width: 573px;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -257,10 +251,7 @@
 }
 .destination-indonesia{
     background-image: url("./images/destination-indonesia.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    width: 573px;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -271,17 +262,13 @@
 
 .destination-second-row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 .destination-srilanka{
     background-image: url("./images/destination-srilanka.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    width: 374px;
     height: 286px;
     border-radius: 16px;
     margin : 5px;
@@ -291,10 +278,7 @@
 }
 .destination-north-america{
     background-image: url("./images/destination-north-america.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    width: 474px;
     height: 286px;
     border-radius: 16px;
     margin : 5px;
@@ -304,10 +288,7 @@
 }
 .destination-kashmir{
     background-image: url("./images/destination-kashmir.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    width: 274px;
     height: 286px;
     border-radius: 16px;
     margin : 5px;
@@ -317,17 +298,13 @@
 }
 .destination-third-row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 .destination-bangladesh{
     background-image: url("./images/destination-bangladesh.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    width: 473px;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -337,10 +314,7 @@
 }
 .destination-bandarban{
     background-image: url("./images/destination-bandarban.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+    width: 673px;
     height: 300px;
     border-radius: 16px;
     margin : 5px;
@@ -351,16 +325,11 @@
 /* Destination Section End */
 
 /* Choose Section Start */
-.choose{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/* .choose{} */
 
 .choose-title{
     color: #131318;
+    text-align: center;
     font-family: Mulish;
     font-size: 40px;
     font-style: normal;
@@ -370,6 +339,7 @@
 
 .choose-description{
     color: rgba(19, 19, 24, 0.70);
+    text-align: center;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -379,13 +349,12 @@
 .choose-card-group{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 
 .choose-card{
-    width: 100%;
+    width: 573px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -398,7 +367,7 @@
 }
 
 .choose-card-2{
-    width: 100%;
+    width: 573px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -440,84 +409,6 @@
 }
 /* Choose Section End */
 
-/* Deals Section Start */
-/* Deals Section End */
-
-/* Videos Section Start */
-.videos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.videos-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    width: 100%;
-}
-
-.videos-title{
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    width: 100%;
-}
-
-.videos-description{
-    color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    width: 100%;
-    text-align: justify;
-}
-
-.videos-li{
-    color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    width: 100%;
-    text-align: justify;
-}
-
-.videos-button{
-    border: none;
-    border-radius: 8px;
-    background: #FF5400;
-    width: 100%;
-    height: 52px;
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.videos-promotion{
-    width: 100%;
-    height: 300px;
-    border-radius: 16px;
-    margin : 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* Videos Section End */
-
 /* Affliation Section Start */
 .affiliation {
     display: flex;
@@ -553,13 +444,12 @@
     width: 100%;
     margin-top: 10px;
     overflow-x: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #ebe4e1;
+    border-radius: 15px;
 }
 
 .affiliation-table table {
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -570,24 +460,22 @@
 }
 
 .affiliation-th {
-    background-color: #cadf0f;
+    background-color: #f2f2f2;
 }
 /* Affliation Section End */
 
 /* Newsletter Section Start */
 .newsletter{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 .newsletter-left{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 474px;
     height: 422px;
     border-radius: 16px;
     border: 1px solid #FF5400;
@@ -596,7 +484,6 @@
 .newsletter-left-text{
     display: flex;
     flex-direction: column;
-    width: 80%;
 }
 
 .newsletter-title{
@@ -618,7 +505,7 @@
 }
 .newsletter-input{
     border: none;
-    width: 80%;
+    width: 393px;
     height: 52px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -635,7 +522,7 @@
 
 .newsletter-button{
     border: none;
-    width: 80%;
+    width: 393px;
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
@@ -649,10 +536,9 @@
     line-height: normal;
 }
 .newsletter-right{
-    margin-top: 10px;
     background-image: url("./images/newsletter-image.png");
     background-repeat: no-repeat;
-    width: 90%;
+    width: 672px;
     height: 422px;
     border-radius: 16px;
     margin-left : 10px;
@@ -661,8 +547,8 @@
     align-items: flex-end;
 }
 .newsletter-right-sticker{
-    width: 50%;
-    height: auto;
+    width: 324px;
+    height: 120px;
     transform: rotate(-19.628deg);
     transform-origin: bottom left;
     border-radius: 16px;
@@ -672,7 +558,7 @@
     color: #FFF;
     text-align: center;
     font-family: Mulish;
-    font-size: 15.854px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -680,16 +566,17 @@
 .newsletter-right-text-2{
     color: #FFF;
     font-family: Mulish;
-    font-size: 21.138px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-align: center;
 }
 /* Newsletter Section End */
 
 /* Footer Section Start */
 .footer{
-    width: 100%;
+    width: 1440px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
     display: flex;
@@ -738,7 +625,6 @@
     gap: 10px;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .footer-hr{

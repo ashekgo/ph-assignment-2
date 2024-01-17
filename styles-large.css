@@ -1,3 +1,5 @@
+@media screen and (min-width: 992px)  {
+
 /* Navigation Section Start */
 .navigation {
     display: flex;
@@ -427,12 +429,6 @@
 }
 /* Choose Section End */
 
-/* Deals Section Start */
-/* Deals Section End */
-
-/* Videos Section Start */
-/* Videos Section End */
-
 /* Affliation Section Start */
 .affiliation {
     display: flex;
@@ -665,3 +661,4 @@
     line-height: normal;
 }
 /* Footer Section End */
+}
